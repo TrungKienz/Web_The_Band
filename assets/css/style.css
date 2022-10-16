@@ -173,9 +173,12 @@ html{
 
 #content .content-section {
     width: 800px;
+    max-width: 100%;
     padding: 64px 0;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 16px;
+    padding-right: 8px;
 }
 
 #content .section-heading {
@@ -203,6 +206,7 @@ html{
 #content .members-list {
     padding: 32px 0;
     overflow: hidden;
+    margin-top: 32px;
 }
 
 #content .member-item {
@@ -259,7 +263,7 @@ html{
 /* Places */
 
 .places-list {
-    margin-top: 32px;
+    margin-top: 16px;
     margin-bottom: 48px;
     overflow: hidden;
     padding-bottom: 48px;
